@@ -1,11 +1,12 @@
 repo_name: xavierloeraflores/IOS-Twitter-Client
 report_id: 5fd7a1161979d1d7e904c2c4f897a66b
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T13:02:10+00:00'
+timestamp: '2024-01-05T08:38:34+00:00'
 requested_by: xavierloeraflores
 provider: github
 branch: master
-detected_tools_count: 7
+detected_tools_count: 8
 tools:
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client
   detection_source: Repo Metadata
 - name: Swift
   description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -35,6 +38,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client
   detection_source: Repo Metadata
 - name: AFNetworking
   description: A delightful networking framework for iOS, macOS, watchOS, and tvOS.
@@ -43,6 +47,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3183/1181541.png
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client/blob/master/Podfile
   detection_source: Podfile
   last_updated_by: Timothy Lee
   last_updated_on: 2019-01-28 01:16:27.000000000 Z
@@ -54,7 +59,22 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client/blob/master/Podfile.lock
   detection_source: Podfile.lock
+  last_updated_by: Timothy Lee
+  last_updated_on: 2019-01-28 01:16:27.000000000 Z
+- name: AFNetworking
+  description: A delightful networking framework for Apple platforms
+  package_url: https://cocoapods.org/pods/AFNetworking
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/package/cocoapods/image.png
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client/blob/master/Podfile.lock
+  detection_source: Podfile
   last_updated_by: Timothy Lee
   last_updated_on: 2019-01-28 01:16:27.000000000 Z
 - name: AlamofireImage
@@ -67,7 +87,7 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: Podfile.lock
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client/blob/master/Podfile.lock
   detection_source: Podfile
   last_updated_by: Timothy Lee
   last_updated_on: 2019-01-28 01:29:01.000000000 Z
@@ -81,7 +101,7 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: Podfile.lock
+  detection_source_url: https://github.com/xavierloeraflores/IOS-Twitter-Client/blob/master/Podfile.lock
   detection_source: Podfile
   last_updated_by: Timothy Lee
   last_updated_on: 2019-01-28 01:16:27.000000000 Z
